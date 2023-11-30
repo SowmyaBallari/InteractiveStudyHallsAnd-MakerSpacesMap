@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  #landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url('Images/Pacific_Zoom_backgrounds-06.jpg') center center/cover no-repeat;
+  
+  }
+  
+  #title {
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 130px;
+  }
+  
+  #animatedIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon {
+    font-size: 1em;
+    margin: 0 10px;
+    margin-bottom: 100px;
+    animation: bounce 1s infinite alternate;
+     color: #1d0c19;
+  }
+  
+  
+  @keyframes bounce {
+    to {
+      transform: translateY(-5px);
+    }
+  }
